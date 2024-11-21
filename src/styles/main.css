@@ -72,4 +72,25 @@ html body main footer .cont .site-links a:visited {
 }
 html body main footer .cont .site-links a:hover {
   color: green;
+}
+
+@media (orientation: portrait) {
+  html body main footer .cont .socials a svg {
+    width: 8vw;
+    height: 8vw;
+  }
+  html body main footer .cont .logo {
+    height: 16vw;
+    width: 40vw;
+  }
+  html body main footer .cont .logo svg {
+    width: 14vw;
+    height: 14vw;
+  }
+  html body main footer .cont .logo .copyright {
+    font-size: 2.5vw;
+  }
+  html body main footer .cont .site-links {
+    margin-top: 1vh;
+  }
 }/*# sourceMappingURL=main.css.map */
